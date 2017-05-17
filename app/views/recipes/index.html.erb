@@ -4,6 +4,7 @@
       <div class="thumbnail well">
         <h2><a href="/recipes/<%= recipe.id %>"><%= recipe.title %></a></h2>
         <h4><%= recipe.chef %></h4>
+        <h5><%= recipe.friendly_prep_time %></h5>
         <img src="<%= recipe.image_url %>" alt="<%= recipe.title %>">
         <h3><%= recipe.ingredients %></h3>
         <h3><%= recipe.directions %></h3>
